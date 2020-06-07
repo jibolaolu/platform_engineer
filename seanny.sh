@@ -3,8 +3,10 @@
 name=seany
 wife=Ayodele
 
-echo "My name is Mr. $name and it has ${#name} chars" \n
-echo "The name of Woman is $wife and it contains ${#wife} characters" \n
+#This is the name of the author and wife
+
+echo "The name of the author is Mr. $name and it has ${#name} chars" \n
+echo "The name of my wife is $wife and it contains ${#wife} characters" \n
 echo $((2#111))
 
 echo "=======================================" \n
